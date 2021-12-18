@@ -11,4 +11,4 @@ Docker to setup environment for easy testing
 ## Compose/Stack List
 
 
-## [Blog](https://lonelywolflee.github.io/)
+## [Author's Blog](https://lonelywolflee.github.io/)
