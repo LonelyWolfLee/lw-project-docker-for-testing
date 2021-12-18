@@ -12,7 +12,7 @@
 
 ## How to run
 ```bash
-$ docker-compose up --detach
+docker-compose up --detach
 ```
 
 ## References
