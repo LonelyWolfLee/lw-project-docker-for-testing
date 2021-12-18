@@ -10,6 +10,10 @@
 - Log Aggregation 은 Fluentd 를 사용하며 input source 는 [forward][3] 방식으로 24224 port 를 사용한다.
 - 중간에 Elasticsearch 에 장애가 생기더라도 file 에 일정 수준 저장 할 수 있도록 file buffer 를 설정한다.
 
+## How to run
+```bash
+$ docker-compose up --detach
+```
 
 ## References
 - [Elastic 공식 홈페이지 가이드](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-docker.html)
