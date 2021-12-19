@@ -8,6 +8,9 @@
 
 ## Requirements
 - Log Aggregation 은 Fluentd 를 사용하며 input source 는 [forward][3] 방식으로 24224 port 를 사용한다.
+- Fluentd의 tag가 log 로 시작하는 경우만 처리한다.
+- 들어오는 로그는 json 형태로 제한한다.
+- `nested_log`가 있는 경우 각 필드를 한단계 위의 필드로 이동시킨다.
 - 중간에 Elasticsearch 에 장애가 생기더라도 file 에 일정 수준 저장 할 수 있도록 file buffer 를 설정한다.
 
 ## How to run
